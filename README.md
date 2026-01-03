@@ -1,5 +1,4 @@
 # Multi-Module Vision System for Real-Time Person Identification and Threat Detection
-The aim is to develop a working prototype of an intelligent security system based on real-time image analysis. The system will enable face recognition from camera footage and detect potential threats such as the presence of dangerous objects (e.g., weapons). 
-The expected outcome is a functional application integrating face recognition and object detection modules, with a user interface tailored for security personnel.
-The project will be developed using technologies such as Python, OpenCV, and pre-trained AI models. Real-time video processing will be implemented, and selected events will be saved and labeled in the system.
-
+Modern physical security systems increasingly use advanced information technologies to better protect people and property. This engineering thesis presents the design and implementation of an innovative, hybrid access control system that combines biometric identity verification with real-time threat detection. 
+The system is based on a Cloud-Edge architecture. Facial recognition, which requires high computing power, is performed in the Microsoft Azure cloud. Detection of weapons, such as handguns and knives, is executed locally on the edge device. The key element is a custom object detection model based on the YOLOv8 neural network. 
+The client application was built using the Electron framework and Python language. It offers a simple interface for security personnel and automates monitoring and incident recording. Thanks to the data buffering mechanism, the system works continuously even in the event of a network failure. Tests confirmed the high effectiveness, efficiency, and reliability of the solution. 

@@ -4,9 +4,6 @@
 
 node_modules/
 local_data/
-azure_test.py
-facial_recognition_azure.py
-azure_hybrid_recognition.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,4 +1,21 @@
 # Multi-Module Vision System for Real-Time Person Identification and Threat Detection
-Modern physical security systems increasingly use advanced information technologies to better protect people and property. This engineering thesis presents the design and implementation of an innovative, hybrid access control system that combines biometric identity verification with real-time threat detection. 
-The system is based on a Cloud-Edge architecture. Facial recognition, which requires high computing power, is performed in the Microsoft Azure cloud. Detection of weapons, such as handguns and knives, is executed locally on the edge device. The key element is a custom object detection model based on the YOLOv8 neural network. 
-The client application was built using the Electron framework and Python language. It offers a simple interface for security personnel and automates monitoring and incident recording. Thanks to the data buffering mechanism, the system works continuously even in the event of a network failure. Tests confirmed the high effectiveness, efficiency, and reliability of the solution. 
+
+## Overview
+
+This system is an intelligent security prototype based on real-time image analysis. It enables face recognition from camera footage and detects potential threats, such as the presence of dangerous objects.
+
+## Key Features
+
+- **Real-time Identification:** instant face recognition and verification powered by **Azure Face API** for high accuracy and scalability.
+- **Threat Detection:** automated detection of dangerous objects, specifically tuned to identify **pistols** and **knives**.
+- **Incident Management:** automatic recording of security events, including image snapshots and video clips stored in **Azure Blob Storage**.
+- **Security Interface:** a functional Electron-based UI designed specifically for monitoring and managing alerts in real-time.
+
+## Tech Stack
+
+- **Backend:** Python, OpenCV
+- **Frontend:** Electron (JavaScript, HTML, CSS)
+- **AI & Cloud Services:**
+  - **Azure Face API**
+  - **Azure Blob Storage** (incident data & media storage)
+  - **Local AI Model** (real-time weapon detection)

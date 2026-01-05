@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Main Menu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body class="centered-view">
+    <div class="menu-container">
+      <div class="card shadow-sm border-0">
+        <div class="card-body p-4 text-center">
+          <h2 class="mb-3">Welcome</h2>
+          <p id="status-text" class="text-muted mb-4">
+            Loading user profile...
+          </p>
+          <button class="btn btn-primary menu-btn" id="btn-camera">
+            <span>📹</span> Camera Preview
+          </button>
+          <button
+            class="btn btn-outline-dark menu-btn"
+            id="btn-users"
+            style="display: none"
+          >
+            <span>👥</span> Manage Users
+          </button>
+          <button
+            class="btn btn-outline-danger menu-btn"
+            id="btn-incidents"
+            style="display: none"
+          >
+            <span>⚠️</span> Incident Review
+          </button>
+          <hr class="my-4" />
+          <button
+            class="btn btn-link text-danger text-decoration-none"
+            id="btn-logout"
+          >
+            Log Out
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="../renderer_home.js"></script>
+  </body>
+</html>

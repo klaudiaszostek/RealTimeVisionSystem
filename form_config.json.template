@@ -1,0 +1,12 @@
+{
+  "formTitle": "Add a New Resident",
+  "name": "Name",
+  "surname": "Surname",
+  "dynamic_field": "Apartment number",
+  "statusOptions": [
+    "Full access",
+    "Only first floor",
+    "Only second floor",
+    "Denied"
+  ]
+}
